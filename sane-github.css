@@ -9,7 +9,7 @@
 @license      MIT
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document domain("github.com") {
+
 .IssueLabel {
 	border-radius: 0.25em;
 	padding: 0 3px;
@@ -211,6 +211,4 @@ input[aria-label="Select all issues"] {
 	padding: 6px 8px;
 	border-radius: 0.25em;
 	width: 100%
-}
-
 }
