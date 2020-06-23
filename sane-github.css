@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         Sane GitHub
+@version      0.0.1
+@description  Attempts to revert as much as possible of the June 2020 GitHub UI update
+@namespace    MCHSL
+@author       MCHSL
+@homepageURL  https://github.com/MCHSL/sane-github/
+@updateURL    https://github.com/MCHSL/sane-github/blob/master/sane-github.css
+@license      MIT
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("github.com") {
 .IssueLabel {
 	border-radius: 0.25em;
 	padding: 0 3px;
@@ -33,7 +45,8 @@
 	padding: 3px 5px;
 }
 
-:not(get-repo-controller) > details > summary,button.btn {
+:not(get-repo-controller) > details > summary,
+button.btn {
 	border-top-right-radius: 0 !important;
 	border-bottom-right-radius: 0 !important;
 	border-top-left-radius: 0.25em !important;
@@ -78,18 +91,15 @@ a.social-count {
 	flex-direction: column-reverse !important;
 }
 
-.BorderGrid--spacious > *
-{
+.BorderGrid--spacious > * {
 	display: none;
 }
 
-.BorderGrid-row:first-child
-{
+.BorderGrid-row:first-child {
 	display: table-row !important;
 }
 
-.BorderGrid-row:last-child
-{
+.BorderGrid-row:last-child {
 	display: table-row !important;
 }
 
@@ -158,15 +168,15 @@ summary.btn.css-truncate {
 }
 
 .subnav-item:last-child {
-    border-top-right-radius: 0.25em;
-    border-bottom-right-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+	border-bottom-right-radius: 0.25em;
 }
 
 .btn.btn-primary {
 	border-radius: 0.15em;
 }
 
-.btn.disabled{
+.btn.disabled {
 	border-top-left-radius: 0.25em;
 	border-bottom-left-radius: 0.25em;
 }
@@ -192,7 +202,7 @@ input[aria-label="Select all issues"] {
 }
 
 .Box-row--gray,
-.Box-row.border-top.border-black-fade{
+.Box-row.border-top.border-black-fade {
 	padding: 6px 8px !important;
 	border-radius: 0.25em;
 }
@@ -201,4 +211,6 @@ input[aria-label="Select all issues"] {
 	padding: 6px 8px;
 	border-radius: 0.25em;
 	width: 100%
+}
+
 }
