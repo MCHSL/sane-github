@@ -1,0 +1,140 @@
+.IssueLabel {
+	border-radius: 0.25em;
+	padding: 0 3px;
+	font-weight: 600;
+}
+
+.pagehead {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 16px !important;
+}
+
+.new-discussion-timeline {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 0 !important;
+}
+
+.repository-content {
+	margin: 0;
+}
+
+.repository-content > div > div:first-child {
+	width: 100%;
+}
+
+.avatar-user {
+	border-radius: 0.1em !important;
+}
+
+.State {
+	border-radius: 0.25em;
+	padding: 3px 5px;
+}
+
+:not(get-repo-controller) > details > summary,button.btn {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border-top-left-radius: 0.25em !important;
+	border-bottom-left-radius: 0.25em !important;
+}
+
+a.social-count {
+	border-top-right-radius: 0.25em !important;
+	border-bottom-right-radius: 0.25em !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	box-shadow: none;
+}
+
+.d-md-block {
+	border-radius: 0.25em;
+}
+
+.TableObject-item {
+	vertical-align: unset;
+}
+
+.tabnav-tab {
+	padding: 5px 8px !important;
+}
+
+.tabnav-tab.selected {
+	border-top-left-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+}
+
+.Box-row {
+	border-bottom: 1px solid #333333;
+}
+
+.Box-header {
+	border-radius: 0.25em;
+	border-bottom: 1px solid #444444 !important;
+}
+
+:not(#discussion_bucket):not(#wiki-content) > .gutter-condensed {
+	flex-direction: column-reverse !important;
+}
+
+.BorderGrid--spacious {
+	display: none;
+}
+
+.d-md-flex {
+	border-radius: 0.25em;
+}
+
+summary.ml-2 {
+	border-radius: 0.25em;
+}
+
+summary.btn.css-truncate {
+	border-radius: 0.25em !important;
+}
+
+.Box-header--blue {
+	padding: 12px 16px;
+}
+
+.btn {
+	box-shadow: none;
+}
+
+#readme {
+	border-radius: 0.2em !important;
+}
+
+#js-issues-toolbar {
+	border-top-right-radius: 0.25em;
+	border-top-left-radius: 0.25em;
+	padding: 8px 16px;
+}
+
+#js-issues-search {
+	box-shadow: none;
+}
+
+.subnav-item:first-child {
+	border-top-left-radius: 0.25em;
+	border-bottom-left-radius: 0.25em;
+}
+
+.subnav-item:last-child {
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.btn.btn-primary {
+	border-radius: 0.15em;
+}
+
+.btn.disabled{
+	border-top-left-radius: 0.25em;
+	border-bottom-left-radius: 0.25em;
+}
+
+input[aria-label="Select all issues"] {
+	vertical-align: middle;
+}
