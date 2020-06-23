@@ -20,7 +20,7 @@
 	margin: 0;
 }
 
-.repository-content > div > div:first-child {
+.repository-content > div > div:first-child:not(.flex-md-items-center):not(.Box-header--blue) {
 	width: 100%;
 }
 
@@ -74,12 +74,48 @@ a.social-count {
 	border-bottom: 1px solid #444444 !important;
 }
 
-:not(#discussion_bucket):not(#wiki-content) > .gutter-condensed {
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed {
 	flex-direction: column-reverse !important;
 }
 
-.BorderGrid--spacious {
+.BorderGrid--spacious > *
+{
 	display: none;
+}
+
+.BorderGrid-row:first-child
+{
+	display: table-row !important;
+}
+
+.BorderGrid-row:last-child
+{
+	display: table-row !important;
+}
+
+.BorderGrid-cell > .mt-3:nth-child(7) {
+	display: inline !important;
+}
+
+.BorderGrid-cell > .mt-3:nth-child(9) {
+	display: inline !important;
+	margin-left: 8px;
+}
+
+.gutter-condensed > div:not(.mb-md-0) {
+	width: 100% !important;
+}
+
+.BorderGrid-cell > ul {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.BorderGrid-cell > ul > li {
+	flex: auto;
 }
 
 .d-md-flex {
@@ -137,4 +173,32 @@ summary.btn.css-truncate {
 
 input[aria-label="Select all issues"] {
 	vertical-align: middle;
+}
+
+#files {
+	margin-left: -15%;
+	width: 90%;
+}
+
+.thread-subscription-status,
+#all_commit_comments,
+.commit.full-commit {
+	width: 60%;
+}
+
+.Label.Label--gray {
+	border-color: #777;
+	border-radius: 0.25em;
+}
+
+.Box-row--gray,
+.Box-row.border-top.border-black-fade{
+	padding: 6px 8px !important;
+	border-radius: 0.25em;
+}
+
+.Box-body.flex-items-center {
+	padding: 6px 8px;
+	border-radius: 0.25em;
+	width: 100%
 }
