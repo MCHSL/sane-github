@@ -212,3 +212,11 @@ input[aria-label="Select all issues"] {
 	border-radius: 0.25em;
 	width: 100%
 }
+
+#partial-discussion-sidebar {
+	width: 22.5%;
+}
+
+#discussion_bucket.pull-request-tab-content {
+	width: 79.45%;
+}
