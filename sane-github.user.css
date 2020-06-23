@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.2
+@version      0.0.3
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -103,12 +103,14 @@ a.social-count {
 	display: table-row !important;
 }
 
+.BorderGrid-cell > .mt-3:nth-child(6),
 .BorderGrid-cell > .mt-3:nth-child(7) {
 	display: inline !important;
 }
 
+.BorderGrid-cell > .mt-3:nth-child(8),
 .BorderGrid-cell > .mt-3:nth-child(9) {
-	display: inline !important;
+	display: inline-block !important;
 	margin-left: 8px;
 }
 
