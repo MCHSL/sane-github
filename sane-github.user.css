@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.3
+@version      0.0.4
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -221,4 +221,25 @@ input[aria-label="Select all issues"] {
 
 #discussion_bucket.pull-request-tab-content {
 	width: 79.45%;
+}
+
+.UnderlineNav-item {
+    visibility: visible !important;
+}
+
+.position-absolute.js-responsive-underlinenav-overflow {
+	display: none;
+}
+
+nav.js-sidenav-container-pjax.js-responsive-underlinenav {
+	display: flex;
+	align-items: stretch;
+}
+
+ul.UnderlineNav-body.list-style-none {
+	flex: auto;
+}
+
+ul.UnderlineNav-body.list-style-none > li {
+	flex: auto;
 }
