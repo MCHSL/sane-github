@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.4
+@version      0.0.5
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -93,6 +93,10 @@ a.social-count {
 
 .BorderGrid--spacious > * {
 	display: none;
+}
+
+.BorderGrid.BorderGrid--spacious {
+	margin-bottom: 1px;
 }
 
 .BorderGrid-row:first-child {
@@ -242,4 +246,12 @@ ul.UnderlineNav-body.list-style-none {
 
 ul.UnderlineNav-body.list-style-none > li {
 	flex: auto;
+}
+
+.repository-content > .d-flex:not(.gutter-condensed) {
+	width: 61.5% !important;
+}
+
+.repository-content > .d-flex:not(.gutter-condensed) > .d-flex > .d-flex > .d-flex.overflow-x-scroll {
+	overflow-x: hidden !important;
 }
