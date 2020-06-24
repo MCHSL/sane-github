@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.7
+@version      0.0.9
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -32,8 +32,8 @@
 	margin: 0;
 }
 
-.repository-content > div > div:first-child:not(.flex-md-items-center):not(.Box-header--blue) {
-	width: 100%;
+.repository-content > div > div:first-child:not(.flex-md-items-center):not(.Box-header--blue).width-full:not(.flex-auto) {
+	width: 100% !important;
 }
 
 .avatar-user {
@@ -87,8 +87,20 @@ a.social-count {
 	border-bottom: 1px solid #444444 !important;
 }
 
-:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list) {
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg {
 	flex-direction: column-reverse !important;
+}
+
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) {
+	flex-direction: row;
+	width: 100%;
+}
+
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:first-child {
+	width: 33% !important;
+}
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:last-child {
+	width: 70% !important;
 }
 
 .BorderGrid--spacious > * {
@@ -248,10 +260,30 @@ ul.UnderlineNav-body.list-style-none > li {
 	flex: auto;
 }
 
-.repository-content > .d-flex.width-full {
+.repository-content > .d-flex.width-full > .flex-column {
 	width: 61.5% !important;
 }
 
 .repository-content > .d-flex:not(.gutter-condensed) > .d-flex > .d-flex > .d-flex.overflow-x-scroll {
 	overflow-x: hidden !important;
+}
+
+.gutter-condensed > .flex-shrink-0 {
+	width: 100%;
+}
+
+div.d-table.col-12 > .d-table-cell.v-align-top {
+	display: table-cell !important;
+	min-width: max-content;
+	width: 85%;
+}
+
+div.d-table.col-12 > .d-none.v-align-middle {
+	width: min-content !important;
+	float: right;
+}
+
+div.d-table.col-12 > .d-table-cell.v-align-middle {
+	min-width: max-content;
+	max-width: max-content;
 }
