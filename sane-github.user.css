@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.5
+@version      0.0.6
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -248,7 +248,7 @@ ul.UnderlineNav-body.list-style-none > li {
 	flex: auto;
 }
 
-.repository-content > .d-flex:not(.gutter-condensed) {
+.repository-content > .d-flex.width-full {
 	width: 61.5% !important;
 }
 
