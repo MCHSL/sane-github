@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Sane GitHub
-@version      0.0.6
+@version      0.0.7
 @description  Attempts to revert as much as possible of the June 2020 GitHub UI update
 @namespace    MCHSL
 @author       MCHSL
@@ -87,7 +87,7 @@ a.social-count {
 	border-bottom: 1px solid #444444 !important;
 }
 
-:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed {
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list) {
 	flex-direction: column-reverse !important;
 }
 
