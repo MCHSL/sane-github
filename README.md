@@ -8,4 +8,4 @@ Click here to install: https://raw.githubusercontent.com/MCHSL/sane-github/maste
 Before
 ![Before](https://i.imgur.com/JDvKFG1.png)
 After:
-![After](https://i.imgur.com/irWDpZh.png)
+![After](https://i.imgur.com/XRpkzP7.png)
