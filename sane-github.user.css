@@ -36,6 +36,11 @@
 	width: 100% !important;
 }
 
+/* Issue #4 */
+.full-width .repository-content {
+    width: 77% !important;
+}
+
 .avatar-user {
 	border-radius: 0.1em !important;
 }
