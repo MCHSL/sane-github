@@ -261,6 +261,16 @@ ul.UnderlineNav-body.list-style-none > li {
 	flex: auto;
 }
 
+/* Issue #3 */
+.repository-content.d-flex > .width-full {
+	width: 60% !important;
+}
+
+/* Issue #3 */
+.repository-content.d-flex > .d-flex.width-full > .flex-column {
+	width: 100% !important;
+}
+
 .repository-content > .d-flex.width-full > .flex-column {
 	width: 61.5% !important;
 }
