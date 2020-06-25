@@ -96,6 +96,10 @@ a.social-count {
 	width: 100%;
 }
 
+:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:first-child {
+	width: 33% !important;
+}
+
 :not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:last-child {
 	width: 70% !important;
 }
