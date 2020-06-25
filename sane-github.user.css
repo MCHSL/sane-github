@@ -95,7 +95,7 @@ a.social-count {
 	flex-direction: row;
 	width: 100%;
 }
-264
+
 :not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:last-child {
 	width: 70% !important;
 }
