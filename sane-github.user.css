@@ -101,9 +101,6 @@ a.social-count {
 	width: 100%;
 }
 
-:not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:first-child {
-	width: 33% !important;
-}
 :not(#discussion_bucket):not(#wiki-content):not(.container-xl) > .gutter-condensed:not(.js-pinned-items-reorder-list).gutter-lg:not(.flex-column) > .flex-shrink-0:last-child {
 	width: 70% !important;
 }
@@ -264,16 +261,6 @@ ul.UnderlineNav-body.list-style-none {
 
 ul.UnderlineNav-body.list-style-none > li {
 	flex: auto;
-}
-
-/* Issue #3 */
-.repository-content.d-flex > .width-full {
-	width: 60% !important;
-}
-
-/* Issue #3 */
-.repository-content.d-flex > .d-flex.width-full > .flex-column {
-	width: 100% !important;
 }
 
 .repository-content > .d-flex.width-full > .flex-column {
